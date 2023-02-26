@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class SumProject {
+  public static void main(String[] args) {
+    Scanner input = new Scanner(System.in);
+
+    System.out.print("Enter number A: ");
+    int numA = input.nextInt();
+
+    System.out.print("Enter number B: ");
+    int numB = input.nextInt();
+
+    int sum = add(numA, numB);
+
+    System.out.println("Sum of A + B = " + sum);
+  }
+
+  public static int add(int num1, int num2) {
+    int result = num1 + num2;
+    return result;
+  }
+}
